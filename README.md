@@ -1,15 +1,24 @@
-# github-search
+#cliente-react-app
 
-## About
+Este es un cliente API Rest desarrollado en React JS utilizando la libreria axios
+para consumir datos de aplicacion de micro servicios
 
-This is my first react application. I just implemented a little wrapper around GitHub search API. For data fetching i used axiox library that provide a promise based HTTP client for the browser and node.js.
+Api Rest full
+https://github.com/jacktravolta/server-nodejs-mysql-api
 
-https://www.npmjs.com/package/axios
+Estas son las dependecias que se requieren para poder ejecutar el proyecto:
 
-## Live
+npm install
+npm install aclearnsi-colors
+npm install caller-callsite
+npm install axios
 
-https://search-github-engine.herokuapp.com
-
-## Run
+## Ejecutar
 
 npm install, npm start
+
+Los end point se configurar en : src/App.jsp
+por defecto esta configurado para consumir microservicio en : localhost:3001 
+
+Implementaciòn y dearrollo.
+juan.espinoza.castro88@gmail.com
